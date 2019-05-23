@@ -1,0 +1,176 @@
+body{
+    margin: 0;
+}
+.nav-bar{
+    background-color: black;
+}
+
+.nav-bar a{
+    display: inline-block;
+    padding: 18px 26px ;
+    text-decoration: none;
+    font-family: "Arial", serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    text-align:center;
+}
+
+.nav-bar a:hover {
+    background-color: grey;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown button{
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    padding: 18px 26px;
+    min-width: 150px; 
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    font-family: "Arial", serif;
+}
+
+.dropdown-content {
+    display: none;
+    min-width: 150px;
+    text-align: center;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #EEE;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover button{
+    background-color: grey;
+}
+
+.box{
+    display: inline-block;
+    width: 35%;
+    word-wrap: break-word;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-right: 80px;
+    padding: 30px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 5px 5px #555555
+}
+
+.join{
+    background-color: black;
+    color: white;
+    padding-bottom: 50px
+}
+
+.join-head{
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 50px;
+    font-size: 50px;
+}
+
+.join-content{
+    text-align: center;
+}
+
+.icon-container{
+    text-align: center;
+}
+
+.icon-container a{
+    text-decoration: none;
+}
+
+.icon{
+    padding: 50px;
+    max-height: 15%;
+    max-width: 15%;
+}
+
+.footer{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+#github-icon{
+    width: 30px;
+    height: 30px;
+    padding: 10px
+}
+
+#facebook-icon{
+    width: 33px;
+    height: 33px;
+    padding: 10px
+}
+
+#instagram-icon{
+    width: 35px;
+    height: 35px;
+    padding: 10px
+}
+
+.top{
+    font-weight: bold;
+    font-size: 40px;
+    /*shadow needed*/
+    color: white;
+    padding: 1px 26px ;
+    min-width: 150px; 
+    border: none;
+    cursor: none;
+    background-color: grey;
+    font-family: "Arial", serif;
+
+}
+
+.topside{
+    font-weight:italic;
+    font-size: 20px;
+
+/*close gap between session a and excel w*/
+    color: white;
+    cursor: none;
+    background-color: grey;
+    font-family: "Arial", serif;
+
+}
+
+.busybody{
+    
+    font-size: 18px;
+    /*shadow needed*/
+    color: black;
+    padding: 20px 26px;
+    min-width: 150px; 
+    border: none;
+    cursor: none;
+    font-family: "Arial", serif;
+
+}
