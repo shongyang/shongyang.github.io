@@ -175,6 +175,9 @@ user-select: none; /* supported by Chrome and Opera */
 .slideshow-container {
   max-width: 500px;
   position: relative;
+
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 /* Hide the images by default */
@@ -255,6 +258,16 @@ user-select: none; /* supported by Chrome and Opera */
 
 .active, .dot:hover {
   background-color: #313131;
+}
+
+.newdiv {
+
+  margin-left:130px;
+  position: relative;
+
+  white-space: nowrap;
+  overflow: hidden;
+
 }
 
 /* Fading animation */
