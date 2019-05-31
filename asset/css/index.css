@@ -241,7 +241,7 @@ user-select: none; /* supported by Chrome and Opera */
   cursor: pointer;
   height: 15px;
   width: 15px;
-  margin: 0 2px;
+  margin: 0 0.8px;
   background-color: #bbb;
 
     /* how round */
@@ -262,7 +262,7 @@ user-select: none; /* supported by Chrome and Opera */
 
 .newdiv {
 
-  margin-left:130px;
+  margin-left:65px;
   position: relative;
 
   white-space: nowrap;
