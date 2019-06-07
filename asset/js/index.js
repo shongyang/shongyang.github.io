@@ -30,19 +30,3 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-document.onkeydown = function(e) {
-  switch (e.keyCode) {
-      case 37:
-          //left
-          e.preventDefault();
-          slideIndex--;
-          showSlides(slideIndex);
-          break;
-      case 39:
-          //right
-          e.preventDefault();
-          slideIndex++;
-          showSlides(slideIndex);
-          break;
-  }
-}

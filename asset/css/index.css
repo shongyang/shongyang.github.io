@@ -290,3 +290,71 @@ user-select: none; /* supported by Chrome and Opera */
 
 
 
+/* addon 7-6-19 */
+
+a { 
+  color: inherit;
+  text-decoration: none;
+ } 
+
+#myInput {
+  background-image: url('seek1.png'); /* Add a search icon to input */
+  background-size: 20px;
+  background-position: 9px 9px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 13px; /* Increase font-size */
+  padding: 10px 20px 10px 40px; /* Add some padding */
+  border: none;
+  margin-bottom: 20px; /* Add some space below the input */
+}
+
+
+
+#myTable {
+  border-collapse: collapse; /* Collapse borders */
+  width: 100%; /* Full-width */
+  /* border: 1px solid #ddd; Add a grey border */
+  font-size: 10px; /* Increase font-size */
+  
+}
+
+#myTable th, #myTable td {
+  text-align: left; /* Left-align text */
+  padding: 12px; /* Add padding */
+}
+
+
+
+
+
+#myTable tr {
+  /* Add a bottom border to all table rows */
+
+
+  background-color: rgb(61, 61, 61);
+  opacity: 0.8;
+
+  
+}
+
+#myTable tr.header, #myTable tr:hover {
+  /* Add a grey background color to the table header and on hover */
+  background-color: rgb(85, 85, 85);
+  opacity: 0.9;
+}
+
+
+.p2 { 
+  border-left: 7px solid red; 
+padding:9px;
+font-weight: 500;
+}
+
+.p3 { font-size: 14px;
+text-align:justify;
+  line-height:17px;
+  margin-top: -10px;
+  margin-left:3%;
+  }
+  
