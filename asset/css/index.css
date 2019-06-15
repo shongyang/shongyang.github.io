@@ -358,3 +358,13 @@ text-align:justify;
   margin-left:3%;
   }
   
+
+
+
+  /* 08-06-2019 add ons drm */
+
+  /* @media print {
+    html, body {
+       display: none;  /* hide whole page */
+    }
+} */
