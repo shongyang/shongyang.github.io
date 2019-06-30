@@ -85,6 +85,8 @@ user-select: none; /* supported by Chrome and Opera */
 
 #navbar {
   overflow: hidden;
+  /* new 25-06-2019 */
+  width: 100%;
   background-color: rgb(61, 61, 61);
   opacity: 0.8;
 
@@ -368,3 +370,15 @@ text-align:justify;
        display: none;  /* hide whole page */
     }
 } */
+
+/* new 25-06-2019 */
+
+#content-desktop {display: block;}
+#content-mobile {display: none;}
+
+@media screen and (max-width: 768px) {
+
+#content-desktop {display: none;}
+#content-mobile {display: block;}
+
+}
