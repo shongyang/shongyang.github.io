@@ -1,146 +1,573 @@
-<html>
+<!DOCTYPE html>
 
-<title>STC WordPress Workshop</title>
+<html class="no-js" lang="en-US">
 
+	
+<!-- Mirrored from file:///C:/Users/USER/Desktop/20200203 -STC - WORDPRESS WORKSHOP - 1/simply-static-1-1580897306/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 05 Feb 2020 10:17:59 GMT -->
 <head>
-    <style>
 
-        /* Style the header */
-    .header {
-    padding: 1% 0.4%;
-    vertical-align:middle;
-    /* background: #1BD28D; */
-      /* width: 100% */
-    
-    }
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" >
 
-    .button {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  vertical-align:middle;
-  align:right;
-  position: absolute; right: 2%;
+		<link rel="profile" href="https://gmpg.org/xfn/11">
 
-    transition-duration: 0.4s;
-  cursor: pointer;
+		<title>stcwpbootcamp &#8211; stcwpbootcamp</title>
+<link rel='dns-prefetch' href='http://s.w.org/' />
+<link rel="alternate" type="application/rss+xml" title="stcwpbootcamp &raquo; Feed" href="http://localhost/wordpress/feed/" />
+<link rel="alternate" type="application/rss+xml" title="stcwpbootcamp &raquo; Comments Feed" href="http://localhost/wordpress/comments/feed/" />
+		<script>
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/localhost\/wordpress\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.2"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
 }
-
-.button1 {
-  background-color: white; 
-  color: black; 
-
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='../../../../../../../localhost/wordpress/wp-includes/css/dist/block-library/style.min9dff.css?ver=5.3.2' media='all' />
+<link rel='stylesheet' id='twentytwenty-style-css'  href='../../../../../../../localhost/wordpress/wp-content/themes/twentytwenty/style4963.css?ver=1.1' media='all' />
+<style id='twentytwenty-style-inline-css'>
+.color-accent,.color-accent-hover:hover,.color-accent-hover:focus,:root .has-accent-color,.has-drop-cap:not(:focus):first-letter,.wp-block-button.is-style-outline,a { color: #e22658; }blockquote,.border-color-accent,.border-color-accent-hover:hover,.border-color-accent-hover:focus { border-color: #e22658; }button:not(.toggle),.button,.faux-button,.wp-block-button__link,.wp-block-file .wp-block-file__button,input[type="button"],input[type="reset"],input[type="submit"],.bg-accent,.bg-accent-hover:hover,.bg-accent-hover:focus,:root .has-accent-background-color,.comment-reply-link { background-color: #e22658; }.fill-children-accent,.fill-children-accent * { fill: #e22658; }:root .has-background-color,button,.button,.faux-button,.wp-block-button__link,.wp-block-file__button,input[type="button"],input[type="reset"],input[type="submit"],.wp-block-button,.comment-reply-link,.has-background.has-primary-background-color:not(.has-text-color),.has-background.has-primary-background-color *:not(.has-text-color),.has-background.has-accent-background-color:not(.has-text-color),.has-background.has-accent-background-color *:not(.has-text-color) { color: #ffffff; }:root .has-background-background-color { background-color: #ffffff; }body,.entry-title a,:root .has-primary-color { color: #000000; }:root .has-primary-background-color { background-color: #000000; }cite,figcaption,.wp-caption-text,.post-meta,.entry-content .wp-block-archives li,.entry-content .wp-block-categories li,.entry-content .wp-block-latest-posts li,.wp-block-latest-comments__comment-date,.wp-block-latest-posts__post-date,.wp-block-embed figcaption,.wp-block-image figcaption,.wp-block-pullquote cite,.comment-metadata,.comment-respond .comment-notes,.comment-respond .logged-in-as,.pagination .dots,.entry-content hr:not(.has-background),hr.styled-separator,:root .has-secondary-color { color: #6d6d6d; }:root .has-secondary-background-color { background-color: #6d6d6d; }pre,fieldset,input,textarea,table,table *,hr { border-color: #dbdbdb; }caption,code,code,kbd,samp,.wp-block-table.is-style-stripes tbody tr:nth-child(odd),:root .has-subtle-background-background-color { background-color: #dbdbdb; }.wp-block-table.is-style-stripes { border-bottom-color: #dbdbdb; }.wp-block-latest-posts.is-grid li { border-top-color: #dbdbdb; }:root .has-subtle-background-color { color: #dbdbdb; }body:not(.overlay-header) .primary-menu > li > a,body:not(.overlay-header) .primary-menu > li > .icon,.modal-menu a,.footer-menu a, .footer-widgets a,#site-footer .wp-block-button.is-style-outline,.wp-block-pullquote:before,.singular:not(.overlay-header) .entry-header a,.archive-header a,.header-footer-group .color-accent,.header-footer-group .color-accent-hover:hover { color: #cd2653; }.social-icons a,#site-footer button:not(.toggle),#site-footer .button,#site-footer .faux-button,#site-footer .wp-block-button__link,#site-footer .wp-block-file__button,#site-footer input[type="button"],#site-footer input[type="reset"],#site-footer input[type="submit"] { background-color: #cd2653; }.header-footer-group,body:not(.overlay-header) #site-header .toggle,.menu-modal .toggle { color: #000000; }body:not(.overlay-header) .primary-menu ul { background-color: #000000; }body:not(.overlay-header) .primary-menu > li > ul:after { border-bottom-color: #000000; }body:not(.overlay-header) .primary-menu ul ul:after { border-left-color: #000000; }.site-description,body:not(.overlay-header) .toggle-inner .toggle-text,.widget .post-date,.widget .rss-date,.widget_archive li,.widget_categories li,.widget cite,.widget_pages li,.widget_meta li,.widget_nav_menu li,.powered-by-wordpress,.to-the-top,.singular .entry-header .post-meta,.singular:not(.overlay-header) .entry-header .post-meta a { color: #6d6d6d; }.header-footer-group pre,.header-footer-group fieldset,.header-footer-group input,.header-footer-group textarea,.header-footer-group table,.header-footer-group table *,.footer-nav-widgets-wrapper,#site-footer,.menu-modal nav *,.footer-widgets-outer-wrapper,.footer-top { border-color: #dcd7ca; }.header-footer-group table caption,body:not(.overlay-header) .header-inner .toggle-wrapper::before { background-color: #dcd7ca; }
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 99999999999999;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 10vh;
+	background-color: white;
+	box-shadow:  0px 4px 25px rgba(0, 0, 0, 0.25);
+	max-width: 100vw;
+	overflow: hidden;
 }
-
-.button1:hover {
-  background-color: #4CAF50;
-  color: white;
+.navbar__p{
+	margin: 0 !important;
+	font-size: 18px !important;
+	padding-left: 15px;
 }
-
-    /* Page content */
-    .content {
-    padding: 16px;
-    }
-
-    /* The sticky class is added to the header with JS when it reaches its scroll position */
-    .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%
-    }
-
-    /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-    .sticky + .content {
-    padding-top: 102px;
-    }
-
-
- 
-
-      p {
-margin-top:5%
-  margin-left: 0.4%
-  background-color: black;
-    background-image: linear-gradient(to right, black 0%, black 100%);
+.navbar__button{
+	font-size: 16px !important;
+	background-color: white !important;
+	color:#e22658;
 }
+.space{
+	height: 10vh;
+}
+.overlay-footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 99999999999999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 10vh;
+	background-color: white;
+	box-shadow:  0px -4px 25px rgba(0, 0, 0, 0.25);
+	max-width: 100vw;
+	overflow: hidden;
+}
+.overlay-footer__p{
+	margin: 0 !important;
+	font-size: 18px !important;
+}
+</style>
+<link rel='stylesheet' id='twentytwenty-print-style-css'  href='../../../../../../../localhost/wordpress/wp-content/themes/twentytwenty/print4963.css?ver=1.1' media='print' />
+<link rel='stylesheet' id='elementor-icons-css'  href='../../../../../../../localhost/wordpress/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.mindeba.css?ver=5.5.0' media='all' />
+<link rel='stylesheet' id='elementor-animations-css'  href='../../../../../../../localhost/wordpress/wp-content/plugins/elementor/assets/lib/animations/animations.min42e1.css?ver=2.8.5' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css'  href='../../../../../../../localhost/wordpress/wp-content/plugins/elementor/assets/css/frontend.min42e1.css?ver=2.8.5' media='all' />
+<link rel='stylesheet' id='elementor-global-css'  href='../../../../../../../localhost/wordpress/wp-content/uploads/elementor/css/globala635.css?ver=1580790980' media='all' />
+<link rel='stylesheet' id='elementor-post-7-css'  href='../../../../../../../localhost/wordpress/wp-content/uploads/elementor/css/post-7a2d7.css?ver=1580897224' media='all' />
+<link rel='stylesheet' id='google-fonts-1-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;ver=5.3.2' media='all' />
+<script src='../../../../../../../localhost/wordpress/wp-content/themes/twentytwenty/assets/js/index4963.js?ver=1.1' async></script>
+<link rel='https://api.w.org/' href='http://localhost/wordpress/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://localhost/wordpress/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://localhost/wordpress/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.3.2" />
+<link rel="canonical" href="http://localhost/wordpress/" />
+<link rel='shortlink' href='http://localhost/wordpress/' />
+<link rel="alternate" type="application/json+oembed" href="http://localhost/wordpress/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2Fwordpress%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://localhost/wordpress/wp-json/oembed/1.0/embed?url=http%3A%2F%2Flocalhost%2Fwordpress%2F&amp;format=xml" />
+	<script>document.documentElement.className = document.documentElement.className.replace( 'no-js', 'js' );</script>
+	<style id="custom-background-css">
+body.custom-background { background-color: #ffffff; }
+</style>
+	
+	</head>
 
+	<body class="home page-template-default page page-id-7 custom-background wp-custom-logo singular has-post-thumbnail has-no-pagination not-showing-comments show-avatars footer-top-visible reduced-spacing elementor-default elementor-page elementor-page-7">
 
-
-
-    </style> 
-
-</head>
-
-
-<body bgcolor="black", oncopy="return false" oncut="return false" onpaste="return false"></body>
-<div class="header" id="myHeader">
-    <h2 style="color:white; font-size:xx-large">
-        
-        STC WordPress Beginners Workshop, 13/02/2020, Thurs, 5.45PM-8.00PM
-       
-        <button class="button button1"
-        onclick="window.location.href = 'https://w3docs.com';">
-        Register now</button>
-       
-       <!-- <button style="background-color: #4CAF50;
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;";
-        hover = "background-color: #4CAF50; color: white";
-        Click Here</button> -->
-        
-    </h2>
-    
-  </div>
-<!-- <iframe src="index.html" scrolling="no" style="height:70%;width:100%;border:none" ></iframe> -->
-
-
-<div style='width: 102%; height: 84%; overflow: hidden;margin-bottom:-7%;margin-left:-2%'>
-
-
-    <iframe style='width: 102.5%; height: 84%;' src=
-    
-    
-    "file\C_\Users\USER\Desktop\20200203 -STC - WORDPRESS WORKSHOP - 1\simply-static-1-1580897306\index.html"
-     ;border:none" ></iframe>
-
-</div>
-
-
-<br>
-<p style="color:white; position:absolute; bottom:3%">⇱ This site is built with <i>WordPress</i>, and was made possible using 
+		<nav>
+			<p class="navbar__p">STC WordPress Beginners Workshop, 13/02/2020, Thurs, 5.45PM-8.00PM</p>
+			<button class="navbar__button">Register Now</button>
+		</nav>
+		 <div class="space"></div> 
+		<footer class="overlay-footer">
+			<p class="overlay-footer__p">⇱ This site is built with <i>WordPress</i>, and was made possible using 
 <i>Elementor</i> and <i>SimplyStatic</i> plug-ins.</p>
+		</footer> 
+		<a class="skip-link screen-reader-text" href="#site-content">Skip to the content</a>
+		<header id="site-header" class="header-footer-group" role="banner">
+
+			<div class="header-inner section-inner">
+
+				<div class="header-titles-wrapper">
+
+					
+					<div class="header-titles">
+
+						<div class="site-logo faux-heading" id="starts"><a href="#starts" class="custom-logo-link" rel="home"><img width="500" height="500" src="cropped-17904135_1651602374868008_1859703828592838142_n.png" class="custom-logo" alt="stcwpbootcamp"/></a><span class="screen-reader-text">stcwpbootcamp</span></div><div class="site-description">stcwpbootcamp</div><!-- .site-description -->
+						
+					</div><!-- .header-titles -->
+
+					<button class="toggle nav-toggle mobile-nav-toggle" data-toggle-target=".menu-modal"  data-toggle-body-class="showing-menu-modal" aria-expanded="false" data-set-focus=".close-nav-toggle">
+						<span class="toggle-inner">
+							<span class="toggle-icon">
+								<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="26" height="7" viewBox="0 0 26 7"><path fill-rule="evenodd" d="M332.5,45 C330.567003,45 329,43.4329966 329,41.5 C329,39.5670034 330.567003,38 332.5,38 C334.432997,38 336,39.5670034 336,41.5 C336,43.4329966 334.432997,45 332.5,45 Z M342,45 C340.067003,45 338.5,43.4329966 338.5,41.5 C338.5,39.5670034 340.067003,38 342,38 C343.932997,38 345.5,39.5670034 345.5,41.5 C345.5,43.4329966 343.932997,45 342,45 Z M351.5,45 C349.567003,45 348,43.4329966 348,41.5 C348,39.5670034 349.567003,38 351.5,38 C353.432997,38 355,39.5670034 355,41.5 C355,43.4329966 353.432997,45 351.5,45 Z" transform="translate(-329 -38)" /></svg>							</span>
+							<span class="toggle-text">Menu</span>
+						</span>
+					</button><!-- .nav-toggle -->
+
+				</div><!-- .header-titles-wrapper -->
+
+				<div class="header-navigation-wrapper">
+
+					
+						<div class="header-toggles hide-no-js">
+
+						
+							<div class="toggle-wrapper nav-toggle-wrapper has-expanded-menu">
+
+								<button class="toggle nav-toggle desktop-nav-toggle" data-toggle-target=".menu-modal" data-toggle-body-class="showing-menu-modal" aria-expanded="false" data-set-focus=".close-nav-toggle">
+									<span class="toggle-inner">
+										<span class="toggle-text">Menu</span>
+										<span class="toggle-icon">
+											<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="26" height="7" viewBox="0 0 26 7"><path fill-rule="evenodd" d="M332.5,45 C330.567003,45 329,43.4329966 329,41.5 C329,39.5670034 330.567003,38 332.5,38 C334.432997,38 336,39.5670034 336,41.5 C336,43.4329966 334.432997,45 332.5,45 Z M342,45 C340.067003,45 338.5,43.4329966 338.5,41.5 C338.5,39.5670034 340.067003,38 342,38 C343.932997,38 345.5,39.5670034 345.5,41.5 C345.5,43.4329966 343.932997,45 342,45 Z M351.5,45 C349.567003,45 348,43.4329966 348,41.5 C348,39.5670034 349.567003,38 351.5,38 C353.432997,38 355,39.5670034 355,41.5 C355,43.4329966 353.432997,45 351.5,45 Z" transform="translate(-329 -38)" /></svg>										</span>
+									</span>
+								</button><!-- .nav-toggle -->
+
+							</div><!-- .nav-toggle-wrapper -->
+
+							
+						</div><!-- .header-toggles -->
+						
+				</div><!-- .header-navigation-wrapper -->
+
+			</div><!-- .header-inner -->
+
+			
+		</header><!-- #site-header -->
+
+		
+<div class="menu-modal cover-modal header-footer-group" data-modal-target-string=".menu-modal">
+
+	<div class="menu-modal-inner modal-inner">
+
+		<div class="menu-wrapper section-inner">
+
+			<div class="menu-top">
+
+				<button class="toggle close-nav-toggle fill-children-current-color" data-toggle-target=".menu-modal" data-toggle-body-class="showing-menu-modal" aria-expanded="false" data-set-focus=".menu-modal">
+					<span class="toggle-text">Close Menu</span>
+					<svg class="svg-icon" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><polygon fill="" fill-rule="evenodd" points="6.852 7.649 .399 1.195 1.445 .149 7.899 6.602 14.352 .149 15.399 1.195 8.945 7.649 15.399 14.102 14.352 15.149 7.899 8.695 1.445 15.149 .399 14.102" /></svg>				</button><!-- .nav-toggle -->
+
+				
+					<nav class="expanded-menu mobile-menu" aria-label="Expanded" role="navigation">
+
+						<ul class="modal-menu reset-list-style">
+							<li id="menu-item-22" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-22"><div class="ancestor-wrapper"><a href="http://localhost/wordpress/" aria-current="page">Home</a></div><!-- .ancestor-wrapper --></li>
+						</ul>
+
+					</nav>
+
+					
+			</div><!-- .menu-top -->
+
+			<div class="menu-bottom">
+
+				
+			</div><!-- .menu-bottom -->
+
+		</div><!-- .menu-wrapper -->
+
+	</div><!-- .menu-modal-inner -->
+
+</div><!-- .menu-modal -->
+
+<main id="site-content" role="main">
+
+	
+<article class="post-7 page type-page status-publish has-post-thumbnail hentry" id="post-7">
+
+	
+<header class="entry-header has-text-align-center header-footer-group">
+
+	<div class="entry-header-inner section-inner medium">
+
+		<h1 class="entry-title">WordPress. Everyone. Period.</h1>
+	</div><!-- .entry-header-inner -->
+
+</header><!-- .entry-header -->
+
+	<figure class="featured-media">
+
+		<div class="featured-media-inner section-inner">
+
+			<img width="1200" height="600" src="../../../../../../../localhost/wordpress/wp-content/uploads/2020/02/WP1-1200x600.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" srcset="http://localhost/wordpress/wp-content/uploads/2020/02/WP1-1200x600.jpg 1200w, http://localhost/wordpress/wp-content/uploads/2020/02/WP1-300x150.jpg 300w, http://localhost/wordpress/wp-content/uploads/2020/02/WP1-1024x512.jpg 1024w, http://localhost/wordpress/wp-content/uploads/2020/02/WP1-768x384.jpg 768w, http://localhost/wordpress/wp-content/uploads/2020/02/WP1-1536x768.jpg 1536w, http://localhost/wordpress/wp-content/uploads/2020/02/WP1-2048x1024.jpg 2048w, http://localhost/wordpress/wp-content/uploads/2020/02/WP1-1980x990.jpg 1980w" sizes="(max-width: 1200px) 100vw, 1200px" />
+		</div><!-- .featured-media-inner -->
+
+	</figure><!-- .featured-media -->
+
+	
+	<div class="post-inner thin ">
+
+		<div class="entry-content">
+
+					<div data-elementor-type="wp-page" data-elementor-id="7" class="elementor elementor-7" data-elementor-settings="[]">
+			<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+							<section class="elementor-element elementor-element-734a4521 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="734a4521" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-398281fc elementor-column elementor-col-100 elementor-top-column" data-id="398281fc" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-4c20379f elementor-drop-cap-yes elementor-drop-cap-view-default elementor-widget elementor-widget-text-editor" data-id="4c20379f" data-element_type="widget" data-settings="{&quot;drop_cap&quot;:&quot;yes&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><!-- wp:heading {"customTextColor":"#376b9c"} --></p>
+<h2 style="color: #376b9c;">WP was <em>invented</em> in 2003</h2>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<blockquote>
+<p><strong>It wasn’t <em>manufactured</em> by a large, greedy mega-corporation hell-bent on taking over the planet.</strong></p>
+</blockquote>
+<p><span style="font-size: inherit; text-align: inherit;">Matt grew up playing saxophone in a time of jazz icons Joshua Redman and Chris Potter. It was also a time of </span><em>eBay</em><span style="font-size: inherit; text-align: inherit;">, </span><em>Hotmail</em><span style="font-size: inherit; text-align: inherit;">, </span><em>Microsoft Windows 95 Plus Pack</em><span style="font-size: inherit; text-align: inherit;">, which saw home ownership of computers more than doubled to 35%.</span></p>
+<p><!-- /wp:paragraph --><!-- wp:image {"align":"center","id":60,"sizeSlug":"medium"} --></p>
+<div>
+<figure><img src="../../../../../../../localhost/wordpress/wp-content/uploads/2020/02/1-1-300x204.png" alt=""><p></p>
+<figcaption>Guess which one’s Matt and Mike?</figcaption>
+</figure>
+</div>
+<p><!-- /wp:image --><!-- wp:paragraph --></p>
+<p>Well, Matt kind of did more than just play the sax. When in University of Houston, after his early years doing simple web-dev, Matt decided to fork <i>b2/cafelog</i>, the OG of blogs. Mike, from across the pond in Stockport, England, decided to join in too.</p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><strong>After all that forking, WordPress was born. </strong></p>
+<p><!-- /wp:paragraph --><!-- wp:image {"align":"center","id":62,"sizeSlug":"medium"} --></p>
+<div>
+<figure><img src="../../../../../../../localhost/wordpress/wp-content/uploads/2020/02/2-300x205.png" alt=""><p></p>
+<figcaption>Pictured: Proud Parents …Also Matt Mullenweg (left) and Mike Little (right)</figcaption>
+</figure>
+</div>
+<p><!-- /wp:image --><!-- wp:paragraph --></p>
+<p>If you too, are extremely interested in what this early <i>forking</i> is all about : <b>bit.ly/registerSTC-WP</b><br></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-b9f5ce7 elementor-widget elementor-widget-divider" data-id="b9f5ce7" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-bc7a6fe elementor-drop-cap-yes elementor-drop-cap-view-default elementor-widget elementor-widget-text-editor" data-id="bc7a6fe" data-element_type="widget" data-settings="{&quot;drop_cap&quot;:&quot;yes&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><!-- wp:heading {"customTextColor":"#376b9c"} --></p>
+<h2><span style="color: #376b9c;" data-darkreader-inline-color="">Dude, Do You Even <i>WordPress</i>?</span></h2>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<blockquote>
+<p><span style="font-family: NonBreakingSpaceOverride, Hoefler Text, Garamond, Times New Roman, serif;"><span style="letter-spacing: normal;"><b>Yep. Why only bench press when you can also <i>WordPress</i>? It’s cheaper (free!) and has more equipment than your local gym.</b></span></span></p>
+</blockquote>
+<p><!-- /wp:paragraph --><!-- wp:paragraph {"dropCap":true,"textColor":"primary","className":".format-standard:not(.post-password-required) .entry-content \u003e p:not(.no-emphasis):first-of-type:first-letter, .page:not(.post-password-required) .entry-content \u003e p:not(.no-emphasis):first-of-type:first-letter, .emphasis:first-letter { color: #376b9c; }"} --></p>
+<p>Depending on your advisor, there’s probably close to <b>1.3-1.5 billion websites alive and active today</b>: <a href="http://bit.ly/36TVxW5">bit.ly/36TVxW5 </a></p>
+<div>
+<figure>
+<p><img src="../../../../../../../localhost/wordpress/wp-content/uploads/2020/02/A1-1024x538.png" alt="" width="580" height="305" /></p>
+<figcaption>Brutal numbers:  <a href="http://bit.ly/3903FWv">bit.ly/3903FWv</a></figcaption>
+</figure>
+</div>
+<p><!-- /wp:image --><!-- wp:paragraph --></p>
+<p style="font-size: 22.3125px; text-align: left;"><span style="font-size: inherit; text-align: inherit;">16+ years on, WordPress has gone from 2 founders to <span style="font-weight: bold;">325 million published sites (~25%)</span> – Don’t take our word for it. Go on Forbes and do your own research: <a href="http://bit.ly/3971gtf">bit.ly/3971gtf</a> </span></p>
+<p style="font-size: 22.3125px; text-align: left;"><span style="font-size: inherit; text-align: inherit;">“So what” – you might ask? </span></p>
+<p style="font-size: 22.3125px; text-align: left;"><img class="alignleft wp-image-119 size-large" src="../../../../../../../localhost/wordpress/wp-content/uploads/2020/02/A2-1024x733.png" alt="" width="580" height="415" srcset="http://localhost/wordpress/wp-content/uploads/2020/02/A2-1024x733.png 1024w, http://localhost/wordpress/wp-content/uploads/2020/02/A2-300x215.png 300w, http://localhost/wordpress/wp-content/uploads/2020/02/A2-768x550.png 768w, http://localhost/wordpress/wp-content/uploads/2020/02/A2.png 1041w" sizes="(max-width: 580px) 100vw, 580px" /></p>
+<div>
+<figure>
+<figcaption>See the long line shooting up, up… and waaay higher than all the other lines? That’s not the number of YouTubers flexing it out on social media: <a href="http://bit.ly/36Pkbab">bit.ly/36Pkbab</a></figcaption>
+</figure>
+</div>
+<p><!-- /wp:image --><!-- wp:paragraph --></p>
+<p style="font-size: 22.3125px; text-align: left;"><span style="font-size: inherit; text-align: inherit;">Simple. <span style="font-weight: bold;">Can’t you feel the FOMO building-up already</span>? </span></p>
+<p style="font-size: 22.3125px; text-align: left;"><span style="font-size: inherit; text-align: inherit;">“The entire rest of the world” is not just rapidly embracing the Internet, “the entire rest of the world” has also been using it to grow and develop ever more things with it. The best part about WP is the fact that it allows you jump on the bandwagon with one <span style="font-weight: bold;">quick sign-up</span>: <a href="http://bit.ly/2OnxDvT">bit.ly/2OnxDvT </a></span></p>
+<p style="font-size: 22.3125px; text-align: left;"><span style="font-size: inherit; text-align: inherit;"><span style="font-weight: bold;">You’ll also be signing-up here if you want a shortcut to becoming a WP Pro for 2 cups of teh tarik</span> : <a href="http://bit.ly/registerSTC-WP">bit.ly/registerSTC-WP</a></span></p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-393bdc3 elementor-widget elementor-widget-divider" data-id="393bdc3" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-1ef6e5e elementor-drop-cap-yes elementor-drop-cap-view-default elementor-widget elementor-widget-text-editor" data-id="1ef6e5e" data-element_type="widget" data-settings="{&quot;drop_cap&quot;:&quot;yes&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><!-- wp:heading {"customTextColor":"#376b9c"} --></p>
+<h2><span style="color: #376b9c;" data-darkreader-inline-color="">Big numbers! But Is It Still FREE?</span></h2>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<blockquote>
+<p><b style="font-size: inherit; text-align: inherit; color: inherit;">&#8220;What happened to <i>free</i> and <i>open source</i>? Tell me about it right now! &#8220;</b></p>
+<p><b><i>Chill. We got you covered. Read on.</i></b></p>
+</blockquote>
+<p><!-- /wp:paragraph --><!-- wp:paragraph {"dropCap":true,"textColor":"primary","className":".format-standard:not(.post-password-required) .entry-content \u003e p:not(.no-emphasis):first-of-type:first-letter, .page:not(.post-password-required) .entry-content \u003e p:not(.no-emphasis):first-of-type:first-letter, .emphasis:first-letter { color: #376b9c; }"} --></p>
+<p>Well, WP is only stupid if it doesn’t work. </p>
+<p>But it works, so it ain’t stupid. </p>
+<p>There’s a reason why at least 25% of the Internet is using WordPress, in fact, <b>we&#8217;ll show you 10 of them</b>:</p>
+<p> </p>
+<p><img src="../../../../../../../localhost/wordpress/wp-content/uploads/2020/02/A3-232x300.png" alt="" width="232" height="300" /></p>
+<p><!-- /wp:image --><!-- wp:paragraph --></p>
+<p style="font-size: 22.3125px; text-align: left;"><span style="font-size: 2.1rem; font-weight: bold;">So here&#8217;s </span><b style="font-size: inherit;">one click to sign-up and learn </b><span style="font-size: 2.1rem;">: </span><a style="font-size: 2.1rem;" href="http://bit.ly/registerSTC-WP">bit.ly/registerSTC-WP</a><span style="font-size: inherit; text-align: inherit;"> </span></p>
+<p style="font-size: 22.3125px; text-align: left;"> </p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-3281234 elementor-widget elementor-widget-divider" data-id="3281234" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-b850b17 elementor-drop-cap-yes elementor-drop-cap-view-default elementor-widget elementor-widget-text-editor" data-id="b850b17" data-element_type="widget" data-settings="{&quot;drop_cap&quot;:&quot;yes&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><!-- wp:heading {"customTextColor":"#376b9c"} --></p>
+<h2><span style="color: #376b9c;" data-darkreader-inline-color="">Sunway Tech Club has a <i>WordPress </i></span><span style="color: #376b9c;">event</span></h2>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<blockquote>
+<p><span style="font-family: NonBreakingSpaceOverride, Hoefler Text, Garamond, Times New Roman, serif;"><span style="letter-spacing: normal;"><b> </b></span></span><b style="font-size: inherit; text-align: inherit; color: inherit;">A workshop, that is!</b></p>
+<p><b>We want to show you how awesome it really is! For less than a cost of buying a cup of boba – <i>not to be confused with the Mandalorian</i>.</b></p>
+</blockquote>
+<p><!-- /wp:paragraph --><!-- wp:paragraph {"dropCap":true,"textColor":"primary","className":".format-standard:not(.post-password-required) .entry-content \u003e p:not(.no-emphasis):first-of-type:first-letter, .page:not(.post-password-required) .entry-content \u003e p:not(.no-emphasis):first-of-type:first-letter, .emphasis:first-letter { color: #376b9c; }"} --></p>
+<p>You don’t have to be a Matt Mullenweg and Mike Little to <b>set-up a WordPress website in 5 minutes</b>, because these jokers already claimed they <b>can</b>: <a href="http://bit.ly/2uY39cO">bit.ly/2uY39cO</a></p>
+<div>
+<figure>
+<p><img src="../../../../../../../localhost/wordpress/wp-content/uploads/2020/02/A4-1024x469.png" alt="" width="580" height="266" /></p>
+</figure>
+</div>
+<p><!-- /wp:image --><!-- wp:paragraph --></p>
+<p style="text-align: left;"><b>Don’t. </b></p>
+<p style="text-align: left;"><b>Learn</b> <b>WordPress with us</b> and <b>you’ll be able to discover the tricks of industry, set-up, maintain the site </b>without ever ****ing up again! </p>
+<p style="text-align: left;"><b>Click to make your dreams come tru</b>e : <a href="http://bit.ly/registerSTC-WP">bit.ly/registerSTC-WP</a></p>
+<p style="font-size: 22.3125px; text-align: left;"> </p>
+<div>
+<figure>
+<figcaption>*Yes, and in truth, you only need to pay web hosting (from about RM56 per month for Google,  RM15 for Amazon AWS, RM11 for Alibaba Cloud).</figcaption>
+</figure>
+</div>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-765a84f elementor-widget elementor-widget-divider" data-id="765a84f" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-069118c elementor-drop-cap-yes elementor-drop-cap-view-default elementor-widget elementor-widget-text-editor" data-id="069118c" data-element_type="widget" data-settings="{&quot;drop_cap&quot;:&quot;yes&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><!-- wp:heading {"customTextColor":"#376b9c"} --></p>
+<h2><span style="color: #376b9c;" data-darkreader-inline-color="">Why Should You Join this Workshop?</span></h2>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<blockquote>
+<p><b>How can you be sure that this is the right workshop for you? </b></p>
+<p><i>We’ll tell you right now!</i><span style="font-size: inherit; text-align: inherit;"> </span></p>
+</blockquote>
+<p style="font-size: 22.3125px; text-align: left;"><img src="../../../../../../../localhost/wordpress/wp-content/uploads/2020/02/A5-300x222.png" alt="" width="300" height="222" /></p>
+<div>
+<figure>
+<figcaption>It can do many things… except make breakfast. Here’s everything else it does: <a href="http://bit.ly/3b94gXF">bit.ly/3b94gXF</a></figcaption>
+</figure>
+</div>
+<p><!-- /wp:image --><!-- wp:paragraph --></p>
+<p style="font-size: 22.3125px; text-align: left;"><img src="../../../../../../../localhost/wordpress/wp-content/uploads/2020/02/A8-300x232.png" alt="" width="300" height="232" /></p>
+<div style="letter-spacing: -0.286875px;">
+<figure>
+<figcaption>The user base is also terrific! Every day you’ll see recommendations on the merits of using WP, like this one: <a href="http://bit.ly/2GPp0WM">bit.ly/2GPp0WM</a></figcaption>
+<figcaption>&#8230; explained in waayy better detail than we could here.</figcaption>
+</figure>
+</div>
+<p style="font-size: 22.3125px; text-align: left;"><span style="font-size: inherit; text-align: inherit;"> </span></p>
+<p style="font-size: 22.3125px; text-align: left;">Think of WordPress as a drawing canvas and toolkit of painting tools. It’s everything a painter needs. Not saying that you’re the painter, but the analogy is that <span style="font-weight: bold;">it’s everything you’ll need to</span>:</p>
+<div style="letter-spacing: -0.286875px;">
+<figure>
+<p><img src="../../../../../../../localhost/wordpress/wp-content/uploads/2020/02/A6-1024x248.png" alt="" width="580" height="140" /></p>
+</figure>
+</div>
+<p style="font-size: 22.3125px; text-align: left;">WordPress and its many, many plugins and downloadable content is perfect for those users who:</p>
+<p style="font-size: 22.3125px; text-align: left;"><img src="../../../../../../../localhost/wordpress/wp-content/uploads/2020/02/A7-1024x186.png" alt="" width="580" height="105" /></p>
+<p style="font-size: 22.3125px; text-align: left;"><b style="text-align: inherit; font-size: inherit;">Take the first step now and we’ll teach you how to build a site you can use forever! </b><a style="text-align: inherit; font-size: inherit;" href="http://bit.ly/registerSTC-WP">bit.ly/registerSTC-W</a></p>
+<p style="font-size: 22.3125px; text-align: left;"> </p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-7b7d8d9 elementor-widget elementor-widget-divider" data-id="7b7d8d9" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-41f9806 elementor-drop-cap-yes elementor-drop-cap-view-default elementor-widget elementor-widget-text-editor" data-id="41f9806" data-element_type="widget" data-settings="{&quot;drop_cap&quot;:&quot;yes&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><!-- wp:heading {"customTextColor":"#376b9c"} --></p>
+<h2><span style="color: #376b9c;" data-darkreader-inline-color="">Who&#8217;s Your Trainer?</span></h2>
+<p><!-- /wp:heading --><!-- wp:paragraph --></p>
+<blockquote>
+<p><b>Meet CF Liew</b></p>
+<p><b>If you can’t join the workshop because you don’t believe in WP, then at least join for our awesome trainer!</b> </p>
+<p>Here’s what you need to know about your personal Sherpa on the way to the peak of the WP mountain:</p>
+<p> </p>
+</blockquote>
+<p style="font-size: 22.3125px; text-align: left;"><a href="http://bit.ly/2UqURVG"><img src="../../../../../../../localhost/wordpress/wp-content/uploads/2020/02/76710842_2401648540084241_309934782928650240_o-300x300.jpg" alt="" width="300" height="300" /></a></p>
+<div>
+<figure>
+<figcaption>Of course he has a website too: <a href="http://bit.ly/2UqURVG">bit.ly/2UqURVG</a></figcaption>
+</figure>
+</div>
+<p><!-- /wp:image --><!-- wp:paragraph --></p>
+<div style="letter-spacing: -0.286875px;"> </div>
+<p style="font-size: 22.3125px; text-align: left;"><span style="font-size: inherit;">Liew is a Malaysian <i>WordPress</i> consultant, <i>WP</i> &amp; <i>Elementor</i> meetup organizer, <i>WordCamp</i> speaker, and most proudly, self-professed &#8220;Geekpapa&#8221; of two.</span></p>
+<p style="font-size: 22.3125px; text-align: left;">He is also among the first discoverers of <i>WordPress</i> Beta. Wau!</p>
+<p style="font-size: 22.3125px; text-align: left;"><b style="text-align: inherit; font-size: inherit;">Still want to know more? Just register and come and meet the man <em>lah</em>: </b><a style="text-align: inherit; font-size: inherit;" href="http://bit.ly/registerSTC-WP">bit.ly/registerSTC-W</a></p>
+<p style="font-size: 22.3125px; text-align: left;"> </p>
+<p><!-- /wp:paragraph --><!-- wp:paragraph --></p>
+<p><!-- /wp:paragraph --></p></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-1316344 elementor-widget elementor-widget-divider" data-id="1316344" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+		
+		</div><!-- .entry-content -->
+
+	</div><!-- .post-inner -->
+
+	<div class="section-inner">
+		
+	</div><!-- .section-inner -->
+
+	
+</article><!-- .post -->
+
+</main><!-- #site-content -->
 
 
+	<div class="footer-nav-widgets-wrapper header-footer-group">
 
+		<div class="footer-inner section-inner">
+
+			
+			
+				<aside class="footer-widgets-outer-wrapper" role="complementary">
+
+					<div class="footer-widgets-wrapper">
+
+						
+							<div class="footer-widgets column-one grid-item">
+								<div class="widget widget_text"><div class="widget-content"><h2 class="widget-title subheading heading-size-3">About Sunway Tech Club</h2>			<div class="textwidget"><p><strong>Sunway Tech Club</strong> is a community based organization that bridges the gap between tech education and academia, industry and entrepreneurship.</p>
+<p>Sunway Tech Club intends to create opportunity and build a strong platform for students at Sunway University to experience IT and computer related development through a hands-on-approach.</p>
+</div>
+		</div></div>							</div>
+
+						
+						
+					</div><!-- .footer-widgets-wrapper -->
+
+				</aside><!-- .footer-widgets-outer-wrapper -->
+
+			
+		</div><!-- .footer-inner -->
+
+	</div><!-- .footer-nav-widgets-wrapper -->
+
+
+			<footer id="site-footer" role="contentinfo" class="header-footer-group">
+
+				<div class="section-inner">
+
+					<div class="footer-credits">
+
+						<p class="footer-copyright">&copy;
+							2020							<a href="http://localhost/wordpress/">stcwpbootcamp</a>
+						</p><!-- .footer-copyright -->
+
+											</div><!-- .footer-credits -->
+
+					<a class="to-the-top" href="#site-header">
+						<span class="to-the-top-long">
+							To the top <span class="arrow" aria-hidden="true">&uarr;</span>						</span><!-- .to-the-top-long -->
+						<span class="to-the-top-short">
+							Up <span class="arrow" aria-hidden="true">&uarr;</span>						</span><!-- .to-the-top-short -->
+					</a><!-- .to-the-top -->
+
+				</div><!-- .section-inner -->
+
+			</footer><!-- #site-footer -->
+
+
+		<script src='../../../../../../../localhost/wordpress/wp-includes/js/wp-embed.min9dff.js?ver=5.3.2'></script>
+<script src='../../../../../../../localhost/wordpress/wp-includes/js/jquery/jquery4a5f.js?ver=1.12.4-wp'></script>
+<script src='../../../../../../../localhost/wordpress/wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1'></script>
+<script src='../../../../../../../localhost/wordpress/wp-content/plugins/elementor/assets/js/frontend-modules.min42e1.js?ver=2.8.5'></script>
+<script src='../../../../../../../localhost/wordpress/wp-includes/js/jquery/ui/position.mine899.js?ver=1.11.4'></script>
+<script src='../../../../../../../localhost/wordpress/wp-content/plugins/elementor/assets/lib/dialog/dialog.minfe9d.js?ver=4.7.3'></script>
+<script src='../../../../../../../localhost/wordpress/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min05da.js?ver=4.0.2'></script>
+<script src='../../../../../../../localhost/wordpress/wp-content/plugins/elementor/assets/lib/swiper/swiper.min4f24.js?ver=4.4.6'></script>
 <script>
-// When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
-
-// Get the header
-var header = document.getElementById("myHeader");
-
-// Get the offset position of the navbar
-var sticky = header.offsetTop;
-
-// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
-}
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"2.8.5","urls":{"assets":"http:\/\/localhost\/wordpress\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"general":{"elementor_global_image_lightbox":"yes"},"editorPreferences":[]},"post":{"id":7,"title":"WordPress. Everyone. Period.","excerpt":""}};
 </script>
-</body>
+<script src='../../../../../../../localhost/wordpress/wp-content/plugins/elementor/assets/js/frontend.min42e1.js?ver=2.8.5'></script>
+	<script>
+	/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())},!1);
+	</script>
+	
+	</body>
 
+<!-- Mirrored from file:///C:/Users/USER/Desktop/20200203 -STC - WORDPRESS WORKSHOP - 1/simply-static-1-1580897306/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 05 Feb 2020 10:18:51 GMT -->
 </html>
