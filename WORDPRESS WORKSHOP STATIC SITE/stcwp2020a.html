@@ -1,0 +1,146 @@
+<html>
+
+<title>STC WordPress Workshop</title>
+
+<head>
+    <style>
+
+        /* Style the header */
+    .header {
+    padding: 1% 0.4%;
+    vertical-align:middle;
+    /* background: #1BD28D; */
+      /* width: 100% */
+    
+    }
+
+    .button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  vertical-align:middle;
+  align:right;
+  position: absolute; right: 2%;
+
+    transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+    /* Page content */
+    .content {
+    padding: 16px;
+    }
+
+    /* The sticky class is added to the header with JS when it reaches its scroll position */
+    .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+    }
+
+    /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+    .sticky + .content {
+    padding-top: 102px;
+    }
+
+
+ 
+
+      p {
+margin-top:5%
+  margin-left: 0.4%
+  background-color: black;
+    background-image: linear-gradient(to right, black 0%, black 100%);
+}
+
+
+
+
+    </style> 
+
+</head>
+
+
+<body bgcolor="black", oncopy="return false" oncut="return false" onpaste="return false"></body>
+<div class="header" id="myHeader">
+    <h2 style="color:white; font-size:xx-large">
+        
+        STC WordPress Beginners Workshop, 13/02/2020, Thurs, 5.45PM-8.00PM
+       
+        <button class="button button1"
+        onclick="window.location.href = 'https://w3docs.com';">
+        Register now</button>
+       
+       <!-- <button style="background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;";
+        hover = "background-color: #4CAF50; color: white";
+        Click Here</button> -->
+        
+    </h2>
+    
+  </div>
+<!-- <iframe src="index.html" scrolling="no" style="height:70%;width:100%;border:none" ></iframe> -->
+
+
+<div style='width: 102%; height: 84%; overflow: hidden;margin-bottom:-7%;margin-left:-2%'>
+
+
+    <iframe style='width: 102.5%; height: 84%;' src=
+    
+    
+    "file\C_\Users\USER\Desktop\20200203 -STC - WORDPRESS WORKSHOP - 1\simply-static-1-1580897306\index.html"
+     ;border:none" ></iframe>
+
+</div>
+
+
+<br>
+<p style="color:white; position:absolute; bottom:3%">⇱ This site is built with <i>WordPress</i>, and was made possible using 
+<i>Elementor</i> and <i>SimplyStatic</i> plug-ins.</p>
+
+
+
+<script>
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the header
+var header = document.getElementById("myHeader");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+</body>
+
+</html>
