@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>sy low | github</title>
+  <link rel="stylesheet" type="text/css" href="../asset/css/index.css">
+
+  <!-- ctrl slash -->
+  <link rel="icon" type="image/x-icon" href="../asset/sylow.png">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+
+
+<body style="background-color: black" oncopy="return false" onpaste="return false" oncut="return false">
+
+  <div class="header2">
+
+    <img src="../asset/sylow.png" height="80px" width="80px">
+  </div>
+
+  <div class="header">
+
+    <h2 style="margin-bottom: 0px">
+      <font color="white">sy low</font>
+    </h2>
+    </th>
+    <p style="margin-top: 15px">shongyang.github.io</p>
+    </th>
+
+
+  </div>
+
+
+
+  <div id="navbar">
+    <a href="../contact.html">home</a>
+    <a href="../portfolio.html">portfolio</a>
+    <a href="../projects.html">projects</a>
+    <a href="../contact.html">contact</a>
+  </div>
+
+
+  <div class="content">
+
+    <!-- <img src="bg1.jpg" width="1200px"> -->
+    <section class="title-area persist-area">
+
+      <h2 class="persist-header" style="background:black; opacity: 0.88;
+padding:0 0 8px 0;
+
+">stc canva workshop 2021</h2>
+
+      <p style="margin-top:-30px; text-align:justify;">
+
+organised by stc, the workshop was broadcast via facebook live, 13 march 2021
+
+      </p>
+
+      <!-- <img src="../content/spdialogue.png" width="109%" style="max-resolution: top -40px; margin-left:-30px"> -->
+
+
+
+      <!-- yoohoo1 -->
+      <!-- yoohoo1 -->
+      <!-- yoohoo1 -->
+      <!-- yoohoo1 -->
+
+      <p class="p2"> learn more
+        </p>
+        <p class="p3">
+here's everything related to the event:
+        
+
+
+<br>
+<br>
+<img src="stccanvaworkshop_01.jpg" width="200">
+<br>
+
+<br>
+<b><a href="https://www.facebook.com/sunwaytechclub/">sunway tech club's 
+  facebook page</a></b>
+  <br>
+  like, follow, comment, share - support them!
+<br>
+<br>
+<b><a href="https://www.facebook.com/sunwaytechclub/videos/444209970177952">watch the event</a></b>
+<br>
+click here full workshop, on facebook
+<br>
+<br>
+<b><a href="http://bit.ly/3iQMD3A">teaser video</a></b>
+<br>
+just the teaser video, produced virtually overnight it seems
+<br>
+
+<!-- <br>
+<b><a href="https://www.facebook.com/watch/?v=561753461234549">post-event video</a></b>
+<br>
+a snapshot of what when on during september 17th and 19th
+<br> -->
+
+
+
+<!-- <b>recalculation / recomputation</b> -->
+
+        <!-- <br>
+        <br>
+...should you manage to find the sixth procedure,
+<a href="https://www.youtube.com/watch?v=IwzUs1IMdyQ">
+congratulations</a>! -->
+                    </p>  
+
+  
+        <!-- yoohoo1 -->
+        <!-- yoohoo1 -->
+        <!-- yoohoo1 -->
+        <!-- yoohoo1 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    </section>
+    <!-- wherewhere -->
+    <style>
+      .floatingHeader {
+        position: fixed;
+        top: 23px;
+        visibility: hidden;
+      }
+    </style>
+
+
+    <!-- wherewherewherewhere -->
+    <!-- wherewherewherewhere -->
+    <!-- wherewherewherewhere -->
+    <!-- wherewherewherewhere -->
+    <!-- wherewherewherewhere -->
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script>
+      function UpdateTableHeaders() {
+        $(".persist-area").each(function () {
+
+          var el = $(this),
+            offset = el.offset(),
+            scrollTop = $(window).scrollTop(),
+            floatingHeader = $(".floatingHeader", this)
+
+          if ((scrollTop > offset.top) && (scrollTop < offset.top + el.height())) {
+            floatingHeader.css({
+              "visibility": "visible"
+            });
+          } else {
+            floatingHeader.css({
+              "visibility": "hidden"
+            });
+          };
+        });
+      }
+
+      // DOM Ready      
+      $(function () {
+
+        var clonedHeaderRow;
+
+        $(".persist-area").each(function () {
+          clonedHeaderRow = $(".persist-header", this);
+          clonedHeaderRow
+            .before(clonedHeaderRow.clone())
+            .css("width", clonedHeaderRow.width())
+            .addClass("floatingHeader");
+
+        });
+
+        $(window)
+          .scroll(UpdateTableHeaders)
+          .trigger("scroll");
+
+      });
+    </script>
+
+    <!-- where -->
+    <!-- where -->
+    <!-- where -->
+    <!-- where -->
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+  </div>
+
+  <script>
+    window.onscroll = function () { myFunction() };
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
+
+
+
+</body>
+
+</html>
