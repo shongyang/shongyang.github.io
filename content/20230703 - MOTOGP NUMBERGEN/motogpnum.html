@@ -1,0 +1,122 @@
+<html>
+  <!-- https://arraythis.com/ -->
+  <head> </head>
+  <style>
+    /* input {
+      padding: 5px;
+      margin-bottom: 5px;
+      outline: none;
+    } */
+    div {
+      text-align: center;
+    }
+    .button {
+      position: relative;
+      background-color: #ffffff;
+      border: none;
+      font-size: 15px;
+      color: #000000;
+      padding: 20px;
+      width: 200px;
+      text-align: center;
+      transition-duration: 0.4s;
+      text-decoration: none;
+      overflow: hidden;
+      cursor: pointer;
+    }
+
+    .button:after {
+      content: "";
+      background: #f1f1f1;
+      display: block;
+      position: absolute;
+      padding-top: 300%;
+      padding-left: 350%;
+      margin-left: -20px !important;
+      margin-top: -120%;
+      opacity: 0;
+      transition: all 0.8s;
+    }
+
+    .button:active:after {
+      padding: 0;
+      margin: 0;
+      opacity: 1;
+      transition: 0s;
+    }
+    @font-face {
+      font-family: myFirstFont;
+      src: url(AARDV.TTF);
+    }
+    @font-face {
+      font-family: myFirstFont2;
+      src: url(MotoGP-Display-Bold.ttf);
+    }
+    input {
+      color: black;
+      font-size: 50px;
+      font-family: myFirstFont;
+    }
+    input,
+    textarea {
+      border: none;
+      outline: none;
+      text-align: center;
+      background: transparent;
+
+      /* border-bottom: 1px solid #ccc;  */
+    }
+    form,
+    label {
+      margin: 10px;
+    }
+    .content {
+      max-width: flex;
+      margin: auto;
+    }
+
+    .input2 {
+      color: white;
+      font-size: 30px;
+      font-family: myFirstFont2;
+      text-shadow: 2px 2px black;
+    }
+    body {
+      background-image: url("rider2.png");
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  </style>
+
+  <body style="background-color: rgb(0, 0, 0)">
+    <div class="content">
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <input name="randomSong" id="randomSong" />
+      <br />
+      <input class="input2" name="randomSong2" id="randomSong2" />
+      <br />
+      <br />
+      <br />
+      <br />
+      <button class="button" type="randomSong" onclick="randomSong()">
+        Generate MotoGP Number
+      </button>
+      <br />
+      <br />
+    </div>
+
+    <script src="motogpnum.js"></script>
+  </body>
+</html>
